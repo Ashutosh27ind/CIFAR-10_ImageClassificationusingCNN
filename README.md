@@ -3,9 +3,10 @@ In this project we will build multiple CNN models for **CIFAR-10** Image Classif
 
 ## Platform used :
 https://www.nimblebox.ai/  
-(_Enables working faster on AI Projects using power of high performance GPUs)
+(Enables working faster on AI Projects using power of high performance GPUs)
 
-To build and train various CNN networks on the **CIFAR-10** dataset. It has 10 classes of 60,000 RGB images each of size (32, 32, 3). The 10 classes are aeroplane, automobile, bird, cat, deer, dog, frog, horse, ship and truck.
+To build and train various CNN networks on the **CIFAR-10** dataset. It has 10 classes of 60,000 RGB images each of size (32, 32, 3). The 10 classes are aeroplane, automobile, bird, cat, deer, dog, frog, horse, ship and truck.  
+Data source: https://www.cs.toronto.edu/~kriz/cifar.html  
 
 ## CIFAR-10 Experiments  
 In the coming few lectures, you will experiment with some hyperparameters and architectures and draw insights from the results. Some hyperparameters we will play with are:  
@@ -54,7 +55,7 @@ o	Training accuracy = 94%, validation accuracy = 76%.
 ### Experiment-VII: Add more feature maps to the convolutional layers to the network  
 •	Train accuracy =  92%, validation accuracy = 84%  
 
-Based on these experiments, we saw that the performance of CNNs depends heavily on multiple hyperparameters - the number of layers, number of feature maps in each layer, the use of dropouts, batch normalisation, etc. Thus, it is advisable to first fine-tune your model hyperparameters by conducting lots of experiments. Only when you are convinced that you have found the right set of hyperparameters you should train the model with a larger number of epochs (since almost always the amount of time and computing power you have is limited).
+**Based on these experiments, we saw that the performance of CNNs depends heavily on multiple hyperparameters - the number of layers, number of feature maps in each layer, the use of dropouts, batch normalisation, etc. Thus, it is advisable to first fine-tune your model hyperparameters by conducting lots of experiments. Only when you are convinced that you have found the right set of hyperparameters you should train the model with a larger number of epochs (since almost always the amount of time and computing power you have is limited).**
 
 
 
