@@ -1,6 +1,8 @@
 # CIFAR-10_ImageClassificationusingCNN
 In this project we will build multiple CNN models for **CIFAR-10** Image Classification on GPUs.
 
+![alt text](https://github.com/Ashutosh27ind/CIFAR-10_ImageClassificationusingCNN/blob/main/CIFAR10%20dataset.PNG?raw=true)
+
 ## Platform used :
 https://www.nimblebox.ai/  
 (Enables working faster on AI Projects using power of high performance GPUs)
